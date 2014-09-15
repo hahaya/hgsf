@@ -1,6 +1,12 @@
 #! /usr/bin/env python
 #! coding:utf-8
 
+'''
+Created on 2014/9/15
+
+@author: hahaya
+'''
+
 import redis
 
 class RedisApi:
