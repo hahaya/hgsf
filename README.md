@@ -6,7 +6,7 @@
 2. redis-py  
 
 ### Packages ###
-```
+```shell
 sudo pip install redis
 sudo apt-get install mysql-server
 sudo apt-get install libmysqlclient-dev
