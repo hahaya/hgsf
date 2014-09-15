@@ -3,6 +3,7 @@
 
 from hgsf import version
 from hgsf.db.redis_api import RedisApi
+from hgsf.db.mysql_api import MysqlApi
 
 if __name__ == '__main__':
     print 'version:', version.RELEASE_VERSION
@@ -17,3 +18,7 @@ if __name__ == '__main__':
 
     print 'get key:', db.get("name")
     print 'db size:', db.dbsize()
+
+
+    Mysql = MysqlApi()
+    Mysql.connect(passwd = '121001')

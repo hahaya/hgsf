@@ -21,4 +21,7 @@ setup(
     scripts             = [
         'bin/hgsf',
     ],
+    install_requires    = [
+        'redis',
+    ],
 )
