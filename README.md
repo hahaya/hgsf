@@ -19,6 +19,6 @@ sudo python setup.py install
 
 ### Install ###
 ```bash
-sudo python setup.py install`  
+sudo python setup.py install
 hgsf
 ```
