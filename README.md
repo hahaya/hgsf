@@ -18,5 +18,7 @@ sudo python setup.py install
 ```
 
 ### Install ###
-`sudo python setup.py install`  
-`hgsf`
+```bash
+sudo python setup.py install`  
+hgsf
+```
