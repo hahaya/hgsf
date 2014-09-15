@@ -4,5 +4,5 @@
 1. setuptools
 
 ### Install ###
-`sudo python setup.py install`
+`sudo python setup.py install`  
 `hgsf`
