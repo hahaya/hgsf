@@ -1,0 +1,19 @@
+#! /usr/bin/env python
+#! coding:utf-8
+
+from hgsf import version
+from hgsf.db.redis_api import RedisApi
+
+if __name__ == '__main__':
+    print 'version:', version.RELEASE_VERSION
+
+    db = RedisApi()
+    db.connect();
+    db.set("name", "hahaya")
+    db.set("author", "hahaya")
+    db.set("email", "hahayacoder@gmail.com")
+
+    db.delete("author")
+
+    print 'get key:', db.get("name")
+    print 'db size:', db.dbsize()
