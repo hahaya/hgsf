@@ -10,6 +10,6 @@ setup(
     description='hgsf',
     author='hahaya',
     url='https://github.com/hahaya/hgsf',
-    packages=['hgsf',],
+    packages=['hgsf', 'hgsf/db', 'hgsf/test', 'hgsf/utils',],
     scripts=['bin/hgsf',],
 )
