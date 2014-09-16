@@ -12,4 +12,5 @@ from hgsf.db.mysql_api import mysql_api
 if __name__ == '__main__':
     db = MysqlApi()
 	db.connect(passwd = '121001')
+    db.select_db("test")
 
